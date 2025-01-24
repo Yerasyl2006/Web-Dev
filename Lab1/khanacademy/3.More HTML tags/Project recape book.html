@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Project: Recipe Book</title>
+    <style>
+        body {
+            background-color: rgb(240, 240, 255);
+            font-family: Arial, sans-serif;
+        }
+
+        #header_recipe_book {
+            color: rgb(100, 149, 237);
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        h2 {
+            color: rgb(0, 0, 128);
+        }
+
+        p {
+            color: rgb(85, 107, 47);
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table th, table td {
+            border: 1px solid rgb(169, 169, 169);
+            padding: 8px 12px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: rgb(100, 149, 237);
+            color: white;
+        }
+
+        ul {
+            color: rgb(85, 107, 47);
+            list-style-type: square;
+        }
+
+        ol {
+            color: rgb(100, 149, 237);
+        }
+
+        a {
+            color: rgb(255, 69, 0);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .recipe-section {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="header_recipe_book">Favom's Delicious Recipe Book</h1>
+
+    <h2>Table of Contents:</h2>
+    <ol>
+        <li><a href="#recipe1">Spaghetti Carbonara</a></li>
+        <li><a href="#recipe2">Classic Bolognese</a></li>
+        <li><a href="#recipe3">Vegetable Polo</a></li>
+    </ol>
+
+    <div class="recipe-section" id="recipe1">
+        <h2>Spaghetti Carbonara</h2>
+        <ul>
+            <li>Time: 30 minutes</li>
+            <li>Serves: 2-3</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Spaghetti</td>
+                    <td>1 package</td>
+                </tr>
+                <tr>
+                    <td>Bacon</td>
+                    <td>150g</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><strong>Step 1:</strong> Fry the bacon until crispy.</p>
+        <p><strong>Step 2:</strong> Boil the pasta according to the instructions.</p>
+        <p><strong>Step 3:</strong> Mix the eggs and bacon with the pasta.</p>
+        <p><strong>Step 4:</strong> Serve with grated cheese.</p>
+    </div>
+
+    <div class="recipe-section" id="recipe2">
+        <h2>Classic Bolognese</h2>
+        <ul>
+            <li>Time: 1 hour</li>
+            <li>Serves: 4</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ground Beef</td>
+                    <td>500g</td>
+                </tr>
+                <tr>
+                    <td>Onions</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Tomato Paste</td>
+                    <td>2 tbsp</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><strong>Step 1:</strong> Brown the beef in a pan.</p>
+        <p><strong>Step 2:</strong> Add the onions and cook until translucent.</p>
+        <p><strong>Step 3:</strong> Stir in the tomato paste and simmer for 45 minutes.</p>
+        <p><strong>Step 4:</strong> Serve with spaghetti or your favorite pasta.</p>
+    </div>
+
+    <div class="recipe-section" id="recipe3">
+        <h2>Vegetable Polo</h2>
+        <ul>
+            <li>Time: 40 minutes</li>
+            <li>Serves: 2-3</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rice</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Carrots</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Green Beans</td>
+                    <td>100g</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><strong>Step 1:</strong> Cook the rice in a pot with water and salt.</p>
+        <p><strong>Step 2:</strong> Stir-fry the vegetables.</p>
+        <p><strong>Step 3:</strong> Mix the rice and vegetables together.</p>
+        <p><strong>Step 4:</strong> Serve hot with your favorite sauce.</p>
+    </div>
+
+    <p><em>Source: <a href="https://www.example.com">Recipe Website</a></em></p>
+
+</body>
+</html>
